@@ -1,0 +1,37 @@
+a#mobile_style {
+    font-size: 25pt;
+}
+
+img.image-with-name {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+@media only screen and (min-width: 993px) {
+    .tengah th {
+        text-align: center;
+    }
+    th.kiri {
+        text-align: left;
+    }
+    .tengah td {
+        text-align: center;
+    }
+    td.kiri {
+        text-align: left;
+    }
+}
+
+button.checked {
+    background: #b71c1c;
+}
+
+button.checked:focus {
+    background: #6f1515;
+}
+
+button.checked:hover {
+    background: #d02121;
+}
